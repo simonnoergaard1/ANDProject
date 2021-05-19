@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_wheel"
+            android:icon="@drawable/ic_foodbank"
+            android:title="Food Selector" />
+
+        <item android:id="@+id/nav_recipeList"
+            android:icon="@drawable/ic_list"
+            android:title="My Recipe List" />
+
+        <item android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_camera"
+            android:title="Gallery" />
+
+        <item android:id="@+id/nav_friends"
+            android:icon="@drawable/ic_addfriend"
+            android:title="User List" />
+
+    </group>
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/subtitle"
+            android:title="">
+
+        <menu>
+
+        <item android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Log Out"/>
+        </menu>
+
+    </item>
+
+    </group>
+
+</menu>

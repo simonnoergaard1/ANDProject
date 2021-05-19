@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.andproject.fragments.HomeFragment"
+        android:label="home_fragment"
+        tools:layout="@layout/activity_home" >
+        <action
+            android:id="@+id/navigateToListFragment"
+            app:destination="@id/listFragment" />
+        <action
+            android:id="@+id/navigateToFriendsFragment"
+            app:destination="@id/friendsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_galleryFragment"
+            app:destination="@id/galleryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.example.andproject.fragments.ListFragment"
+        android:label="list_fragment"
+        tools:layout="@layout/list_fragment" >
+        <action
+            android:id="@+id/navigateFromListToHome"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/navigateFromListToFriends"
+            app:destination="@id/friendsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/friendsFragment"
+        android:name="com.example.andproject.fragments.FriendsFragment"
+        android:label="friends_fragment"
+        tools:layout="@layout/friends_fragment" />
+
+    <include app:graph="@navigation/login_nav"/>
+    <fragment
+        android:id="@+id/galleryFragment"
+        android:name="com.example.andproject.fragments.GalleryFragment"
+        android:label="gallery_fragment"
+        tools:layout="@layout/gallery_fragment" />
+
+</navigation>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ede0d4"
+    tools:context=".fragments.GalleryFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <TextView
+            android:id="@+id/header_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Get inspiration here!"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/image0"
+            android:layout_width="236dp"
+            android:layout_height="190dp"
+            android:src="@drawable/image0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/header_text" />
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="236dp"
+            android:layout_height="190dp"
+            android:src="@drawable/image1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/image0" />
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="236dp"
+            android:layout_height="190dp"
+            android:src="@drawable/image2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/image1" />
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="236dp"
+            android:layout_height="190dp"
+            android:src="@drawable/image3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/image2" />
+
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="236dp"
+            android:layout_height="190dp"
+            android:src="@drawable/image4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/image3" />
+
+        <ImageView
+            android:id="@+id/image5"
+            android:layout_width="236dp"
+            android:layout_height="190dp"
+            android:src="@drawable/image5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/image4" />
+
+        <ImageView
+            android:id="@+id/image6"
+            android:layout_width="236dp"
+            android:layout_height="190dp"
+            android:src="@drawable/image6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/image5" />
+
+        <ImageView
+            android:id="@+id/image8"
+            android:layout_width="236dp"
+            android:layout_height="190dp"
+            android:src="@drawable/image8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/image6" />
+
+        <ImageView
+            android:id="@+id/image10"
+            android:layout_width="236dp"
+            android:layout_height="190dp"
+            android:src="@drawable/image10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/image8" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
