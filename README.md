@@ -26,3 +26,6 @@ Point system, ranking system, feed feature(Here you can check in with your frien
 
 Will not have:
 Refrigerator item recipe selector?, chat system 
+
+Link for video demonstration: 
+https://youtu.be/dIcYGFVRouE
